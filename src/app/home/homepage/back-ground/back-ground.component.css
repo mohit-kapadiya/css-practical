@@ -1,0 +1,27 @@
+.card{
+    margin: 50px;
+    text-align: center;
+}
+
+p{
+    background-color: deepskyblue;
+}
+
+/* The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. 
+The lower value, the more transparent: */
+
+div.first{
+    background-color: green;
+    opacity: 0.1;
+}
+
+div.second{
+    background-color: green;
+    opacity: 0.7;
+}
+
+
+
+
+
+

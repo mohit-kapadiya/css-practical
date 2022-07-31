@@ -1,0 +1,44 @@
+#grad{
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+
+    /* 
+            linear , redial , conic 
+
+    */
+}
+
+#grad2{
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(0deg, red,yellow);
+
+}
+
+#grad3{
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(90deg, red,yellow);
+}
+
+#grad4{
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(180deg, red,yellow);
+}
+
+#grad5{
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(-90deg, red,yellow);
+}
+
+div{
+    margin: 15px;
+}
+
+.card{
+    margin: 50px;
+    text-align: center;
+}

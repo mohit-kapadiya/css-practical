@@ -1,0 +1,105 @@
+.card{
+    margin: 50px;
+    text-align: center;
+}
+
+
+/* unvisited link */
+a:link{
+    color: red;
+}
+
+/* visited link */
+
+a:visited{
+    color: green;
+}
+
+/* hover */
+
+a:hover{
+    color: goldenrod;
+    background-color:red;
+    padding: 14px 25px;
+    font-family: monospace;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+  }
+
+  ul.a{
+      text-align: left;
+      list-style-type: numeric;
+  }
+
+ 
+  
+  li{
+      display: inline;
+      /* 
+        display: block;
+      */
+      /* visibility: hidden */
+  }
+
+  .box{
+    display: inline-block;
+    border : 2px solid black;
+    width: 150px;
+    height: 150px;
+    margin-left: 15px; 
+  }
+
+  .container{
+      border: 2px solid red;
+      background-color: blanchedalmond;
+      height: 5000px;
+  }
+
+  #box1{
+      position: relative;
+      /*
+      relative to its normal position and will leave a gap its normal position
+      */
+      top:25px;
+      left :10px;
+  }
+
+  #box4{
+    position: absolute;
+     /*
+      relative to position of its first parent
+      */
+    left: 10px
+  }
+
+
+  #box3{
+    position: fixed;
+     /*
+      position the element relative to the browser window
+      */
+    right: 120px;
+    bottom: 2px;
+  }
+
+  #box2{
+      position: sticky;
+      top : 3px;
+
+  }
+
+  /* difference between  visibility hidden and display none 
+
+  visibility hidden |   display none 
+
+  place reserved | place not reserved 
+
+  */
+  
+
+
+
+  

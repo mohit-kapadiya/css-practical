@@ -1,0 +1,59 @@
+
+.box{
+    border : 2px solid black;
+    width: 150px;
+    height: 150px;
+    margin-left: 15px;
+}
+
+#box1{
+background-color: blueviolet;
+position: relative;
+top: 49px;
+z-index: 35
+}
+
+#box2{
+    background-color:brown;
+    position: relative;
+    bottom: 25px;
+    z-index: 10
+    }
+
+    #box3{
+        background-color:burlywood;
+        position: relative;
+        }
+
+        #box4{
+            background-color:chartreuse;
+            position: relative;
+            }
+
+
+    /*
+it will not work when position static
+    */
+
+    .text{
+        width: 300px;
+        height: 300px;
+        border: 1px solid red;
+        margin-top: 15px;
+        overflow: visible;
+
+        /*
+             overflow -x => change of x axis
+             overflow -y => change of y axis
+        */
+
+        /*
+          visible , hidden ,scroll , auto
+        */
+    }
+
+
+    .card{
+        margin: 50px;
+        text-align: center;
+    }

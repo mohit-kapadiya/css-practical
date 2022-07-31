@@ -1,0 +1,45 @@
+.card{
+    margin: 50px;
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    background-color: blue;
+    flex-direction: row;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    /*
+        The justify-content property is used to align the flex items:
+    */
+
+    align-items: baseline;
+
+    /*
+        give direction of flex element
+        column
+        column-reverse
+        row
+        row-reverse
+
+    */
+
+    /*
+            flex-wrap
+            flex-wrap: wrap , nowrap , wrap-reverse
+
+    */
+}
+
+.flex-container > div{
+ background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  margin: 10px;
+}

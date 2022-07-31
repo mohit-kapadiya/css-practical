@@ -1,0 +1,98 @@
+.card{
+    margin: 50px;
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+}
+
+.justify{
+    border: 1px solid black;
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    text-align: justify;
+    /*
+    The text-align: justify; value stretches the lines so that each line has equal width (like in newspapers and magazines).
+    */
+}
+
+.text-align-last{
+    border: 1px solid black;
+    padding: 10px;
+    width: auto;
+    height: 200px;
+    margin-top: 10px;
+    text-align-last: right;
+
+    /*
+    
+        The text-align-last property specifies how to align the last line of a text.
+    */
+}
+
+.direction{
+    border: 1px solid black;
+    padding: 10px;
+    width: auto;
+    height: 200px;
+    margin-top: 10px;
+    direction: rtl;
+    unicode-bidi: isolate;
+
+    /*
+    The direction and unicode-bidi properties can be used to change the text direction of an element:
+    */
+}
+
+.decoration{
+    border: 1px solid black;
+    padding: 10px;
+    width: auto;
+    height: 100px;
+    margin-top: 10px;
+
+    /*
+         The text-decoration property is used to set or remove decorations from text.
+    */
+}
+
+a{
+    text-decoration:wavy;
+    text-transform: capitalize;
+}
+
+
+.indent{
+    border: 1px solid black;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 50px;
+    /*
+        The text-indent property is used to specify the indentation of the first line of a text:
+    */
+
+    letter-spacing: 0px;
+
+    /*
+    The letter-spacing property is used to specify the space between the characters in a text.
+    */
+
+    line-height: 1.8;
+
+    /*
+             The line-height property is used to specify the space between lines:
+    */
+
+    word-spacing: 0px;
+    /*  
+
+        The word-spacing property is used to specify the space between the words in a text.
+    */
+
+    text-shadow: 2px 2px 5px red;
+}

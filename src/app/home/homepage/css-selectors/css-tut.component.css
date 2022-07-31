@@ -1,0 +1,29 @@
+p{
+    color :red
+}
+
+#myId{
+    color : blue
+}
+
+/* we can use p.myClass also  */
+.myClass{
+    color:darkgoldenrod
+}
+
+ /* universal selector */
+* {
+    text-align: center;
+}
+
+/* 
+CSS Grouping Selector */
+
+h4,h5{
+    background-color: darkturquoise;
+    color: darkviolet;
+}
+
+.selector{
+    color:red;
+}

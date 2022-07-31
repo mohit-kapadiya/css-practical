@@ -1,0 +1,86 @@
+.card{
+    margin: 50px;
+    text-align: center;
+}
+body{
+    margin: 50px;
+    text-align: center;   
+}
+
+.first-child {
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.pseudo-element , .attribute-selector{
+    border: 2px solid black;
+    margin:10px;
+}
+a:link{
+    color : red
+}
+
+a:visited{
+    color :green
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color: blue;
+}
+
+.card:hover{
+    background-color: blue;
+}
+
+.text{
+    display: none;
+    border: 2px solid red;
+    padding: 5px;
+    background-color: yellow;
+}
+
+.onHover:hover .text{
+    display: inline-block;
+}
+
+p i:first-child{
+    color: blue;
+}
+
+.first-letter::first-letter{
+    color: blue;
+    font-size: 40px;
+}
+
+p::first-line{
+    color: red;
+}
+
+p::selection{
+    background-color: yellow;
+}
+
+
+a[target]{
+    background-color: yellow;
+}
+
+#myid {
+    background-color: blue ;
+  }
+  
+  .myclass {
+    background-color: gray ;
+  }
+  
+P {
+    background-color: wheat !important;
+  }
+
+
+
+
